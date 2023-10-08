@@ -19,6 +19,7 @@ tree構造は以下の通り。
 
 ### login.html
 認証画面  
+ユーザ名: ryu, パスワード: saito  
 ・PasswordをSha256で暗号化  
 ・パスワードを3回間違えるとロックアウト  
 
