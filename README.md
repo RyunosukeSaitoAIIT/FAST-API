@@ -18,17 +18,17 @@ tree構造は以下の通り。
 </pre>
 
 ### login.html
-認証画面
-・PasswordをSha256で暗号化
-・パスワードを3回間違えるとロックアウト
+認証画面  
+・PasswordをSha256で暗号化  
+・パスワードを3回間違えるとロックアウト  
 
 ### profile.html
-メインページ相当
+メインページ相当  
 ・login.htmlよりセッションを引き継ぎ
 
 ### next_page.html
-メインページからのページ遷移
-・profile.htmlよりセッションを引き継ぎ
-・戻るボタンでprofile.htmlページへ戻れる
+メインページからのページ遷移  
+・profile.htmlよりセッションを引き継ぎ  
+・戻るボタンでprofile.htmlページへ戻れる  
 
 
