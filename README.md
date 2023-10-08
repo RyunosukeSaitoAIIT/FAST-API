@@ -1,11 +1,20 @@
 # FAST-API
 
-多分以下でライブラリのインストールは大丈夫なはず。
+## ライブラリのインストール
+多分以下で大丈夫なはず。
 <pre>
 pip install fastapi starlette Jinja2 python-oauthlib pydantic starlette-session starlette-middleware-trustedhost
 </pre>
 
-tree構造は以下の通り。
+## How to  
+1. コマンドプロンプト(ターミナル)で以下を実行
+<pre>
+uvicorn main:app --reload
+ </pre>
+2. ブラウザバーに「127.0.0.1:8000/login」を入力する
+
+## tree構造  
+以下の通り。
 <pre>
 .
 |-- main.py
