@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile Page</title>
+</head>
+<body>
+    <h1>Welcome, {{ username }}!</h1>
+    <p>This is your profile page.</p>
+
+    <!-- "次へ" ボタンを追加 -->
+    <form method="get" action="/next_page">
+        <button type="submit">次へ</button>
+    </form>
+
+    <p><a href="/logout">ログアウト</a></p>
+</body>
+</html>
