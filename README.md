@@ -10,7 +10,7 @@ pip install fastapi starlette Jinja2 python-oauthlib pydantic starlette-session 
 1. コマンドプロンプト(ターミナル)で以下を実行
 <pre>
 uvicorn main:app --reload
- </pre>
+</pre>
 2. ブラウザバーに「127.0.0.1:8000/login」を入力する
 
 ## tree構造  
